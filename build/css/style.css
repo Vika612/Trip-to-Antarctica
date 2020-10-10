@@ -7,9 +7,7 @@
  */
 html {
   line-height: 1.15;
-  /* 1 */
-  -webkit-text-size-adjust: 100%;
-  /* 2 */ }
+  /* 1 */ }
 
 /* Sections
    ========================================================================== */
@@ -53,7 +51,7 @@ hr {
  * 2. Correct the odd `em` font sizing in all browsers.
  */
 pre {
-  font-family: monospace, monospace;
+  font-family: monospace;
   /* 1 */
   font-size: 1em;
   /* 2 */ }
@@ -73,8 +71,6 @@ a {
 abbr[title] {
   border-bottom: none;
   /* 1 */
-  text-decoration: underline;
-  /* 2 */
   -webkit-text-decoration: underline dotted;
           text-decoration: underline dotted;
   /* 2 */ }
@@ -93,7 +89,7 @@ strong {
 code,
 kbd,
 samp {
-  font-family: monospace, monospace;
+  font-family: monospace;
   /* 1 */
   font-size: 1em;
   /* 2 */ }
@@ -166,15 +162,6 @@ button,
 select {
   /* 1 */
   text-transform: none; }
-
-/**
- * Correct the inability to style clickable types in iOS and Safari.
- */
-button,
-[type="button"],
-[type="reset"],
-[type="submit"] {
-  -webkit-appearance: button; }
 
 /**
  * Remove the inner border and padding in Firefox.
@@ -258,24 +245,14 @@ textarea {
  * 2. Correct the outline style in Safari.
  */
 [type="search"] {
-  -webkit-appearance: textfield;
-  /* 1 */
   outline-offset: -2px;
   /* 2 */ }
-
-/**
- * Remove the inner padding in Chrome and Safari on macOS.
- */
-[type="search"]::-webkit-search-decoration {
-  -webkit-appearance: none; }
 
 /**
  * 1. Correct the inability to style clickable types in iOS and Safari.
  * 2. Change font properties to `inherit` in Safari.
  */
 ::-webkit-file-upload-button {
-  -webkit-appearance: button;
-  /* 1 */
   font: inherit;
   /* 2 */ }
 
@@ -309,39 +286,35 @@ template {
 
 /* montserrat-regular - latin_cyrillic */
 @font-face {
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: local("Montserrat Regular"), local("Montserrat-Regular"), url("../fonts/montserrat-v15-latin_cyrillic-regular.woff2") format("woff2"), url("../fonts/montserrat-v15-latin_cyrillic-regular.woff") format("woff");
-  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */ }
+  src: local("Montserrat Regular"), local("Montserrat-Regular"), url("../fonts/montserrat-v15-latin_cyrillic-regular.woff2") format("woff2"), url("../fonts/montserrat-v15-latin_cyrillic-regular.woff") format("woff"); }
 
 /* montserrat-500 - latin_cyrillic */
 @font-face {
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
   font-style: normal;
   font-weight: 500;
   font-display: swap;
-  src: local("Montserrat Medium"), local("Montserrat-Medium"), url("../fonts/montserrat-v15-latin_cyrillic-500.woff2") format("woff2"), url("../fonts/montserrat-v15-latin_cyrillic-500.woff") format("woff");
-  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */ }
+  src: local("Montserrat Medium"), local("Montserrat-Medium"), url("../fonts/montserrat-v15-latin_cyrillic-500.woff2") format("woff2"), url("../fonts/montserrat-v15-latin_cyrillic-500.woff") format("woff"); }
 
 /* montserrat-600 - latin_cyrillic */
 @font-face {
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
   font-style: normal;
   font-weight: 600;
   font-display: swap;
-  src: local("Montserrat SemiBold"), local("Montserrat-SemiBold"), url("../fonts/montserrat-v15-latin_cyrillic-600.woff2") format("woff2"), url("../fonts/montserrat-v15-latin_cyrillic-600.woff") format("woff");
-  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */ }
+  src: local("Montserrat SemiBold"), local("Montserrat-SemiBold"), url("../fonts/montserrat-v15-latin_cyrillic-600.woff2") format("woff2"), url("../fonts/montserrat-v15-latin_cyrillic-600.woff") format("woff"); }
 
 /* montserrat-700 - latin_cyrillic */
 @font-face {
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
   font-style: normal;
   font-weight: 700;
   font-display: swap;
-  src: local("Montserrat Bold"), local("Montserrat-Bold"), url("../fonts/montserrat-v15-latin_cyrillic-700.woff2") format("woff2"), url("../fonts/montserrat-v15-latin_cyrillic-700.woff") format("woff");
-  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */ }
+  src: local("Montserrat Bold"), local("Montserrat-Bold"), url("../fonts/montserrat-v15-latin_cyrillic-700.woff2") format("woff2"), url("../fonts/montserrat-v15-latin_cyrillic-700.woff") format("woff"); }
 
 /* GENERAL STYLES */
 html {
@@ -369,7 +342,8 @@ body {
   font-size: 16px;
   line-height: 1.5;
   font-weight: 400;
-  color: #011C40;
+  background-color: #e5e5e5;
+  color: #011c40;
   overflow: hidden; }
 
 .same-list {
@@ -386,3 +360,184 @@ body {
   border: 0;
   clip: rect(0 0 0 0);
   overflow: hidden; }
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px; }
+
+@media (max-width: 767px) {
+  .container {
+    padding: 0 15px; } }
+
+.header {
+  position: relative; }
+
+.header__burger {
+  display: none; }
+
+.header__body {
+  position: relative;
+  padding: 33px 0 0 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+
+.header__logo svg {
+  position: relative;
+  z-index: 3;
+  width: 70px;
+  height: 38px; }
+
+@media (max-width: 1023px) {
+  .header__body {
+    padding: 27px 25px 0; }
+  .header__logo svg {
+    width: 38px;
+    height: 20px; } }
+
+@media (max-width: 767px) {
+  .header__top {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between; }
+  .header__body {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 20px 0 0; }
+  .header__logo svg path {
+    width: 42px;
+    height: 22px;
+    fill: #011c40; }
+  .header__burger {
+    display: block; }
+  .header__body--js .header__menu {
+    display: none; }
+  .header__body--js .header__logo svg path {
+    fill: #f9fbfd; } }
+
+.menu__list {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap; }
+
+.menu__item {
+  margin: 0 0 0 34px; }
+
+.menu__link {
+  display: block;
+  font-weight: 500;
+  line-height: 1.3;
+  color: #f9fbfd; }
+  .menu__link:hover, .menu__link:focus {
+    opacity: 0.7; }
+  .menu__link:active {
+    opacity: 0.3; }
+
+@media (max-width: 1023px) {
+  .menu__item {
+    margin: 0 0 0 24px; }
+  .menu__link {
+    font-size: 14px;
+    line-height: 1.2; } }
+
+@media (max-width: 767px) {
+  .menu {
+    width: 100%;
+    padding: 40px 0;
+    background-color: #e5e5e5; }
+  .menu__list {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column; }
+  .menu__item {
+    margin: 0 0 23px 0; }
+  .menu__item--directions {
+    -webkit-box-ordinal-group: 0;
+        -ms-flex-order: -1;
+            order: -1; }
+  .menu__item--advantages {
+    -webkit-box-ordinal-group: 1;
+        -ms-flex-order: 0;
+            order: 0; }
+  .menu__item--cruises {
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1; }
+  .menu__item--contacts {
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2; }
+  .menu__link {
+    font-size: 18px;
+    font-weight: 500;
+    color: #011c40; } }
+
+.burger {
+  position: relative;
+  width: 24px;
+  height: 16px;
+  cursor: pointer; }
+  .burger::before, .burger::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    left: 0;
+    background-color: #f9fbfd;
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s; }
+
+.burger::before {
+  top: 0; }
+
+.burger::after {
+  bottom: 0; }
+
+.burger span {
+  position: absolute;
+  background-color: #f9fbfd;
+  left: 0;
+  top: 7px;
+  width: 100%;
+  height: 2px;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease; }
+
+.burger.active span {
+  -webkit-transform: scale(0);
+          transform: scale(0); }
+
+.burger.active::before {
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+  top: 8px; }
+
+.burger.active::after {
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+  bottom: 6px; }
+
+@media (max-width: 767px) {
+  .burger {
+    width: 18px; }
+  .burger.active span,
+  .burger.active::before,
+  .burger.active::after {
+    background-color: #011c40; } }
