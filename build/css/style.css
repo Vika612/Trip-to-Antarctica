@@ -469,21 +469,21 @@ body {
   .menu__item {
     margin: 0 0 23px 0; }
   .menu__item--directions {
-    -webkit-box-ordinal-group: 0;
-        -ms-flex-order: -1;
-            order: -1; }
-  .menu__item--advantages {
-    -webkit-box-ordinal-group: 1;
-        -ms-flex-order: 0;
-            order: 0; }
-  .menu__item--cruises {
     -webkit-box-ordinal-group: 2;
         -ms-flex-order: 1;
             order: 1; }
-  .menu__item--contacts {
+  .menu__item--advantages {
     -webkit-box-ordinal-group: 3;
         -ms-flex-order: 2;
             order: 2; }
+  .menu__item--cruises {
+    -webkit-box-ordinal-group: 4;
+        -ms-flex-order: 3;
+            order: 3; }
+  .menu__item--contacts {
+    -webkit-box-ordinal-group: 5;
+        -ms-flex-order: 4;
+            order: 4; }
   .menu__link {
     font-size: 18px;
     font-weight: 500;

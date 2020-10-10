@@ -51,19 +51,19 @@
   }
 
   .menu__item--directions {
-    order: -1;
-  }
-
-  .menu__item--advantages {
-    order: 0;
-  }
-
-  .menu__item--cruises {
     order: 1;
   }
 
-  .menu__item--contacts {
+  .menu__item--advantages {
     order: 2;
+  }
+
+  .menu__item--cruises {
+    order: 3;
+  }
+
+  .menu__item--contacts {
+    order: 4;
   }
 
   .menu__link {
