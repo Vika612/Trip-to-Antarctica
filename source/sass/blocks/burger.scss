@@ -1,5 +1,6 @@
 .burger {
   position: relative;
+  z-index: 3;
   width: 24px;
   height: 16px;
   cursor: pointer;
@@ -49,10 +50,6 @@
 }
 
 @media (max-width: 767px) {
-  .burger {
-    width: 18px;
-  }
-
   .burger.active span,
   .burger.active::before,
   .burger.active::after {
