@@ -1,14 +1,14 @@
-.menu__list {
+.menu-footer__list {
   position: relative;
   display: flex;
   flex-wrap: wrap;
 }
 
-.menu__list li {
+.menu-footer__list li {
   margin: 0 0 0 34px;
 }
 
-.menu__link {
+.menu-footer__link {
   display: block;
   font-weight: 500;
   line-height: 1.3;
@@ -25,29 +25,23 @@
 }
 
 @media (max-width: 1023px) {
-  .menu__list li {
+  .menu-footer__list li {
     margin: 0 0 0 24px;
   }
 
-  .menu__link {
-    font-size: 14px;
+  .menu-footer__link {
+    font-size: 12px;
     line-height: 1.2;
   }
 }
 
 @media (max-width: 767px) {
-  .menu__list {
-    padding: 0 15px;
+  .menu-footer__list {
+    margin: 0 0 10px 0;
     flex-direction: column;
   }
 
-  .menu__list li {
-    margin: 0 0 23px 0;
-  }
-
-  .menu__link {
-    font-size: 18px;
-    font-weight: 500;
-    color: $black;
+  .menu-footer__list li {
+    margin: 0 0 18px 0;
   }
 }
