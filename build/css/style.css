@@ -766,7 +766,12 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  background-color: #f9fbfd; }
+  background-color: #f9fbfd;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease; }
+  .card-advantage:hover {
+    -webkit-transform: translateY(-10px);
+            transform: translateY(-10px); }
 
 .card-advantage h3 {
   margin: 0;
