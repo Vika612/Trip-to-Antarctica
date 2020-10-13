@@ -1,5 +1,5 @@
 .intro {
-  margin-bottom: 120px;
+  margin-bottom: 100px;
 }
 
 .intro__wrapper {
@@ -28,6 +28,10 @@
 }
 
 @media (max-width: 1023px) {
+  .intro {
+    margin-bottom: 80px;
+  }
+
   .intro__wrapper {
     margin: 0 -15px;
     padding: 0 25px;

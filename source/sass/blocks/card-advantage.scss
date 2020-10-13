@@ -1,0 +1,80 @@
+.card-advantage {
+  position: relative;
+  flex-basis: 33.3%;
+  padding: 80px 27px 45px;
+  display: flex;
+  flex-direction: column;
+  background-color: $white;
+}
+
+.card-advantage h3 {
+  margin: 0;
+  margin-bottom: 10px;
+  font-size: 18px;
+  line-height: 1.5;
+  font-weight: 500;
+}
+
+.card-advantage p {
+  margin: 0;
+  font-size: 14px;
+  line-height: 1.4;
+}
+
+.card-advantage--ship::before {
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  content: "";
+  width: 27px;
+  height: 32px;
+  background: url("../img/svg/icon-ship.svg") no-repeat center;
+}
+
+.card-advantage--check::before {
+  position: absolute;
+  top: 35px;
+  left: 30px;
+  content: "";
+  width: 38px;
+  height: 21px;
+  background: url("../img/svg/icon-check.svg") no-repeat center;
+}
+
+.card-advantage--boat::before {
+  position: absolute;
+  top: 37px;
+  left: 30px;
+  content: "";
+  width: 42px;
+  height: 15px;
+  background: url("../img/svg/icon-boat.svg") no-repeat center;
+}
+
+@media (max-width: 1023px) {
+  .card-advantage {
+    padding: 70px 10px 30px 15px;
+  }
+
+  .card-advantage--ship::before {
+    top: 25px;
+    left: 15px;
+  }
+
+  .card-advantage--check::before {
+    top: 30px;
+    left: 15px;
+  }
+
+  .card-advantage--boat::before {
+    top: 32px;
+    left: 15px;
+  }
+}
+
+@media (max-width: 767px) {
+  .card-advantage {
+    flex-basis: 100%;
+    padding: 70px 20px 20px;
+  }
+}
