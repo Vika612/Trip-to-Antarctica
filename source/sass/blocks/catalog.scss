@@ -1,0 +1,27 @@
+.catalog {
+  margin-bottom: 120px;
+}
+
+.catalog h2 {
+  margin: 0;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.catalog__cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+@media (max-width: 1023px) {
+  .catalog__cards {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 767px) {
+  .catalog h2 {
+    margin-bottom: 30px;
+  }
+}

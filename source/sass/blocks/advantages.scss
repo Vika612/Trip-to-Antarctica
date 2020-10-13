@@ -1,7 +1,7 @@
 .advantages {
   min-height: 562px;
   display: block;
-  margin-bottom: 120px;
+  margin-bottom: 115px;
   padding: 120px 0;
   background: url("../img/bg/bg-advantages@1x.jpg") no-repeat center;
   background-size: cover;
@@ -35,6 +35,7 @@
 @media (max-width: 1023px) {
   .advantages {
     min-height: 588px;
+    margin-bottom: 90px;
     padding: 90px 30px;
     background: url("../img/bg/bg-advantages-table@1x.jpg") no-repeat center;
     background-size: 100%;
