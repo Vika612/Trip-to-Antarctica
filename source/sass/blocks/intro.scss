@@ -24,7 +24,9 @@
 }
 
 .intro__pic img {
-  max-width: 100%;
+  max-width: 560px;
+  min-height: 301px;
+  display: block;
 }
 
 @media (max-width: 1023px) {
@@ -52,13 +54,17 @@
   }
 
   .intro__pic img {
-    width: 324px;
-    height: 264px;
+    max-width: 324px;
+    min-height: 264px;
     object-fit: cover;
   }
 }
 
 @media (max-width: 767px) {
+  .intro {
+    margin-bottom: 65px;
+  }
+
   .intro__wrapper {
     margin: 0;
     padding: 0;
@@ -76,8 +82,7 @@
   }
 
   .intro__pic img {
-    width: 290px;
-    height: 186px;
-    object-fit: cover;
+    max-width: 290px;
+    min-height: 186px;
   }
 }
