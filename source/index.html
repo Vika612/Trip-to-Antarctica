@@ -68,7 +68,7 @@
               <picture>
                 <!--1x: 560x301; 2x: 1120x602-->
                 <source type="image/webp" srcset="img/pic-intro@1x.webp 1x, img/pic-intro@2x.webp 2x">
-                <img src="img/pic-intro@1x.jpg" srcset="img/pic-intro@2x.jpg" width="560" height="301" alt="Три пингвина">
+                <img src="img/pic-intro@1x.jpg" srcset="img/pic-intro@2x.jpg" width="560" height="301" alt="Фото трех пингвинов на льдине">
               </picture>
             </div>
           </div>
@@ -311,6 +311,45 @@
                 </dl>
                 <a href="#" class="card-tour__button">Забронировать</a>
               </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="booking">
+        <div class="container">
+          <div class="booking__wrapper">
+            <div class="booking__text">
+              <h2 class="booking__title">Раннее бронирование</h2>
+              <p class="booking__subtitle">
+                Забронируйте тур за 3-6 месяцев до даты выезда и сэкономьте до 50%
+              </p>
+            </div>
+            <div class="booking__form form">
+              <p class="form__description">
+                Оставьте заявку и мы свяжемся с вами в ближайшее время
+              </p>
+              <form action="http://echo.htmlacademy.ru" method="POST">
+                <ul class="form__list same-list">
+                  <li class="form__item">
+                    <label for="name" class="visually-hidden">Пожалуйста, укажите Ваше имя</label>
+                    <input type="text" id="name" name="name" placeholder="Валерия" autofocus>
+                  </li>
+                  <li class="form__item">
+                    <label for="phone" class="visually-hidden">Ваш номер телефона</label>
+                    <input type="tel" id="phone" name="phone" placeholder="89236889975">
+                  </li>
+                  <li class="form__item">
+                    <label for="mail" class="visually-hidden">Ваш адрес электронной почты</label>
+                    <input type="email" id="mail" name="mail" placeholder="grishaewa.lera@gmail.com">
+                  </li>
+                </ul>
+                <div class="form__checkbox">
+                  <input type="checkbox" id="check" name="check" checked>
+                  <label for="check">Я согласен на обработку моих персональных данных</label>
+                </div>
+                <button class="form__button" type="submit">Оставить заявку</button>
+              </form>
             </div>
           </div>
         </div>

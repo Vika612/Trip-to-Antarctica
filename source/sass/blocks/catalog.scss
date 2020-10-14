@@ -1,5 +1,5 @@
 .catalog {
-  margin-bottom: 120px;
+  margin-bottom: 90px;
 }
 
 .catalog h2 {
@@ -15,12 +15,21 @@
 }
 
 @media (max-width: 1023px) {
+  .catalog {
+    margin-bottom: 70px;
+  }
+
+
   .catalog__cards {
     justify-content: center;
   }
 }
 
 @media (max-width: 767px) {
+  .catalog {
+    margin-bottom: 35px;
+  }
+
   .catalog h2 {
     margin-bottom: 33px;
   }
