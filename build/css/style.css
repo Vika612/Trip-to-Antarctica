@@ -897,7 +897,7 @@ body {
   max-width: 260px;
   min-height: 386px; }
 
-.card-tour__title {
+.card-tour h3 {
   position: absolute;
   bottom: 25px;
   left: 30px;
@@ -932,7 +932,7 @@ body {
           box-shadow: 0 4px 35px rgba(1, 28, 64, 0.15);
   visibility: hidden; }
 
-.card-tour__info h3 {
+.card-tour__info h4 {
   margin: 0;
   margin-bottom: 15px;
   padding-left: 0;
@@ -973,7 +973,7 @@ body {
   background-color: #f9fbfd; }
 
 @media (max-width: 1023px) {
-  .card-tour__title {
+  .card-tour h3 {
     bottom: 27px;
     left: 33px; }
   .card-tour img {
@@ -982,7 +982,7 @@ body {
     padding: 30px 35px 35px; } }
 
 @media (max-width: 767px) {
-  .card-tour__title {
+  .card-tour h3 {
     bottom: 15px;
     left: 25px; }
   .card-tour img {
@@ -1141,7 +1141,6 @@ body {
   top: -4px;
   left: 0;
   content: "";
-  display: inline-block;
   height: 18px;
   width: 18px;
   background-color: #f9fbfd; }
@@ -1151,7 +1150,6 @@ body {
   top: 0;
   left: 4px;
   content: "";
-  display: inline-block;
   width: 10px;
   height: 6px;
   border-left: 2px solid;

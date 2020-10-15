@@ -17,7 +17,7 @@
   min-height: 386px;
 }
 
-.card-tour__title {
+.card-tour h3 {
   position: absolute;
   bottom: 25px;
   left: 30px;
@@ -46,7 +46,7 @@
   visibility: hidden;
 }
 
-.card-tour__info h3 {
+.card-tour__info h4 {
   margin: 0;
   margin-bottom: 15px;
   padding-left: 0;
@@ -91,7 +91,7 @@
 }
 
 @media (max-width: 1023px) {
-  .card-tour__title {
+  .card-tour h3 {
     bottom: 27px;
     left: 33px;
   }
@@ -106,7 +106,7 @@
 }
 
 @media (max-width: 767px) {
-  .card-tour__title {
+  .card-tour h3 {
     bottom: 15px;
     left: 25px;
   }
