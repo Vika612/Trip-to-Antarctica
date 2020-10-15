@@ -17,6 +17,9 @@
 .intro__text h2 {
   margin: 0;
   margin-bottom: 9px;
+  font-size: 28px;
+  line-height: 1.5;
+  font-weight: 600;
 }
 
 .intro__pic {
@@ -46,6 +49,8 @@
   .intro__text h2 {
     max-width: 205px;
     margin-bottom: 0;
+    font-size: 26px;
+    line-height: 1.4;
   }
 
   .intro__pic {
@@ -75,6 +80,10 @@
     flex-basis: 100%;
     padding: 0;
     margin-bottom: 15px;
+  }
+
+  .intro__text h2 {
+    font-size: 24px;
   }
 
   .intro__pic {

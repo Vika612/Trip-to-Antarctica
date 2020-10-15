@@ -625,7 +625,10 @@ body {
 
 .intro__text h2 {
   margin: 0;
-  margin-bottom: 9px; }
+  margin-bottom: 9px;
+  font-size: 28px;
+  line-height: 1.5;
+  font-weight: 600; }
 
 .intro__pic {
   padding: 0 40px; }
@@ -645,7 +648,9 @@ body {
     padding: 0 15px; }
   .intro__text h2 {
     max-width: 205px;
-    margin-bottom: 0; }
+    margin-bottom: 0;
+    font-size: 26px;
+    line-height: 1.4; }
   .intro__pic {
     padding: 0 15px;
     padding-top: 10px; }
@@ -670,25 +675,13 @@ body {
         flex-basis: 100%;
     padding: 0;
     margin-bottom: 15px; }
+  .intro__text h2 {
+    font-size: 24px; }
   .intro__pic {
     padding: 0; }
   .intro__pic img {
     max-width: 290px;
     min-height: 186px; } }
-
-.title-h2 {
-  font-size: 28px;
-  line-height: 1.5;
-  font-weight: 600; }
-
-@media (max-width: 1023px) {
-  .title-h2 {
-    font-size: 26px;
-    line-height: 1.4; } }
-
-@media (max-width: 767px) {
-  .title-h2 {
-    font-size: 24px; } }
 
 .advantages {
   min-height: 562px;
@@ -705,6 +698,9 @@ body {
 .advantages h2 {
   margin: 0;
   margin-bottom: 45px;
+  font-size: 28px;
+  line-height: 1.5;
+  font-weight: 600;
   text-align: center; }
 
 .advantages__list {
@@ -732,7 +728,9 @@ body {
 
 @media (max-width: 1023px) {
   .advantages h2 {
-    margin-bottom: 50px; } }
+    margin-bottom: 50px;
+    font-size: 26px;
+    line-height: 1.4; } }
 
 @media (max-width: 767px) {
   .advantages {
@@ -748,7 +746,8 @@ body {
 
 @media (max-width: 767px) {
   .advantages h2 {
-    margin-bottom: 30px; }
+    margin-bottom: 30px;
+    font-size: 24px; }
   .advantages__list {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap; }
@@ -844,6 +843,9 @@ body {
 .catalog h2 {
   margin: 0;
   margin-bottom: 50px;
+  font-size: 28px;
+  line-height: 1.5;
+  font-weight: 600;
   text-align: center; }
 
 .catalog__cards {
@@ -858,6 +860,9 @@ body {
 @media (max-width: 1023px) {
   .catalog {
     margin-bottom: 70px; }
+  .catalog h2 {
+    font-size: 26px;
+    line-height: 1.4; }
   .catalog__cards {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
@@ -867,7 +872,8 @@ body {
   .catalog {
     margin-bottom: 35px; }
   .catalog h2 {
-    margin-bottom: 33px; } }
+    margin-bottom: 33px;
+    font-size: 24px; } }
 
 .card-tour {
   position: relative;

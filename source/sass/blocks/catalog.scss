@@ -5,6 +5,9 @@
 .catalog h2 {
   margin: 0;
   margin-bottom: 50px;
+  font-size: 28px;
+  line-height: 1.5;
+  font-weight: 600;
   text-align: center;
 }
 
@@ -19,6 +22,10 @@
     margin-bottom: 70px;
   }
 
+  .catalog h2 {
+    font-size: 26px;
+    line-height: 1.4;
+  }
 
   .catalog__cards {
     justify-content: center;
@@ -32,5 +39,6 @@
 
   .catalog h2 {
     margin-bottom: 33px;
+    font-size: 24px;
   }
 }
