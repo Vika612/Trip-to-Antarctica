@@ -337,7 +337,6 @@ a {
 
 body {
   min-width: 320px;
-  max-width: 1366px;
   margin: 0 auto;
   font-family: "Montserrat", "Tahoma", sans-serif;
   font-size: 16px;
@@ -547,7 +546,7 @@ body {
   @media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
     .main-screen {
       background-image: url("../img/bg/bg-main@2x.jpg");
-      background-size: 1366px 100%; } }
+      background-size: 100% 100%; } }
 
 .main-screen__wrapper {
   padding: 270px 40px 40px 115px; }
@@ -701,7 +700,7 @@ body {
   @media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
     .advantages {
       background-image: url("../img/bg/bg-advantages@2x.jpg");
-      background-size: 1366px 100%; } }
+      background-size: 100% 100%; } }
 
 .advantages h2 {
   margin: 0;
@@ -994,7 +993,7 @@ body {
   @media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
     .booking {
       background-image: url("../img/bg/bg-booking@2x.jpg");
-      background-size: 1366px 100%; } }
+      background-size: 100% 100%; } }
 
 .booking__wrapper {
   padding: 50px 60px;
