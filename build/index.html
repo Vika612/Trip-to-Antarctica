@@ -333,15 +333,15 @@
                 <ul class="form__list same-list">
                   <li class="form__item">
                     <label for="name" class="visually-hidden">Пожалуйста, укажите Ваше имя</label>
-                    <input type="text" id="name" name="name" placeholder="Валерия" autofocus="">
+                    <input type="text" id="name" name="name" placeholder="Валерия" autofocus="" required="">
                   </li>
                   <li class="form__item">
                     <label for="phone" class="visually-hidden">Ваш номер телефона</label>
-                    <input type="tel" id="phone" name="phone" placeholder="89236889975">
+                    <input type="tel" id="phone" name="phone" placeholder="89236889975" required="">
                   </li>
                   <li class="form__item">
                     <label for="mail" class="visually-hidden">Ваш адрес электронной почты</label>
-                    <input type="email" id="mail" name="mail" placeholder="grishaewa.lera@gmail.com">
+                    <input type="email" id="mail" name="mail" placeholder="grishaewa.lera@gmail.com" required="">
                   </li>
                 </ul>
                 <div class="form__checkbox">
@@ -350,6 +350,30 @@
                 </div>
                 <button class="form__button" type="submit">Оставить заявку</button>
               </form>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="contacts">
+        <div class="container">
+          <h2 class="contacts__title visually-hidden">Контакты</h2>
+          <div class="contacts__wrapper">
+            <div class="contacts__info info-contacts">
+              <p class="info-contacts__text">
+                У вас ещё остались вопросы или сомнения? Приезжайте к нам в офис и мы вам все расскажем.
+              </p>
+              <address class="info-contacts__address">
+                г. Санкт Петербург, ул. Большая Конюшенная, 19/8
+              </address>
+              <a href="tel:88002000000">8-800-200-00-00</a>
+            </div>
+            <div class="contacts__map">
+              <picture>
+                <!--1x: 560x306; 2x: 1120x612-->
+                <source type="image/webp" srcset="img/map@1x.webp 1x, img/map@2x.webp 2x">
+                <img src="img/map@1x.jpg" srcset="img/map@2x.jpg" wifth="560" height="306" alt="Санкт Петербург, улица Большая Конюшенная, 19/8">
+              </picture>
             </div>
           </div>
         </div>

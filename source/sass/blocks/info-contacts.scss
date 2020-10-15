@@ -1,0 +1,74 @@
+.info-contacts {
+  margin: 0;
+  padding: 0 50px;
+}
+
+.info-contacts p {
+  margin: 0;
+  margin-bottom: 30px;
+  font-size: 18px;
+  line-height: 1.5;
+  font-weight: 500;
+}
+
+.info-contacts address {
+  position: relative;
+  margin: 0;
+  margin-bottom: 20px;
+  padding-left: 28px;
+  font-size: 16px;
+  line-height: 1.5;
+  font-style: normal;
+
+  &::before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: "";
+    width: 18px;
+    height: 22px;
+    background: url("../img/svg/icon-label.svg") no-repeat left;
+  }
+}
+
+.info-contacts a {
+  position: relative;
+  padding-left: 28px;
+  display: block;
+  font-size: 16px;
+  line-height: 1.5;
+  color: $black;
+
+  &:hover,
+  &:focus {
+    opacity: 0.7;
+  }
+
+  &:active {
+    opacity: 0.3;
+  }
+
+  &::before {
+    position: absolute;
+    top: 3px;
+    left: 0;
+    content: "";
+    width: 18px;
+    height: 18px;
+    background: url("../img/svg/icon-tel.svg") no-repeat left;
+  }
+}
+
+@media (max-width: 1023px) {
+  .info-contacts {
+    margin-bottom: 35px;
+    padding: 65px 15px 0;
+  }
+}
+
+@media (max-width: 767px) {
+  .info-contacts {
+    padding: 0;
+    padding-right: 10px;
+  }
+}

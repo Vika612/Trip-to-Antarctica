@@ -1,0 +1,83 @@
+.contacts {
+  margin-bottom: 120px;
+}
+
+.contacts__wrapper {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 -50px;
+}
+
+.contacts__map {
+  position: relative;
+  padding: 0 50px;
+
+  &::after {
+    position: absolute;
+    bottom: 70px;
+    left: 300px;
+    content: "";
+    width: 18px;
+    height: 22px;
+    background: url("../img/svg/icon-label.svg") no-repeat left;
+  }
+}
+
+.contacts__map img {
+  max-width: 560px;
+  min-height: 306px;
+  display: block;
+}
+
+@media (max-width: 1023px) {
+  .contacts {
+    margin-bottom: 100px;
+  }
+
+  .contacts__wrapper {
+    margin: 0 -30px;
+    padding: 0 40px;
+    align-items: start;
+  }
+
+  .contacts__map {
+    padding: 0 15px;
+
+    &::after {
+      bottom: 95px;
+      left: 125px;
+    }
+  }
+
+  .contacts__map img {
+    max-width: 324px;
+    min-height: 335px;
+    object-fit: cover;
+  }
+}
+
+@media (max-width: 767px) {
+  .contacts {
+    margin-bottom: 65px;
+  }
+
+  .contacts__wrapper {
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+  }
+
+  .contacts__map {
+    &::after {
+      bottom: 70px;
+      left: 113px;
+    }
+  }
+
+  .contacts__map img {
+    max-width: 290px;
+    min-height: 316px;
+  }
+}
