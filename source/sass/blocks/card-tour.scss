@@ -88,6 +88,15 @@
   text-align: center;
   color: $black;
   background-color: $white;
+
+  &:hover,
+  &:focus {
+    opacity: 0.7;
+  }
+
+  &:active {
+    opacity: 0.3;
+  }
 }
 
 @media (max-width: 1023px) {
