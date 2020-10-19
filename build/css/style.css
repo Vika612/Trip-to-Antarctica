@@ -1391,7 +1391,7 @@ body {
       flex-wrap: wrap; }
 
 .menu-footer__list li {
-  margin: 0 0 0 34px; }
+  margin: 10px 0 10px 34px; }
 
 .menu-footer__link {
   display: block;
@@ -1405,7 +1405,7 @@ body {
 
 @media (max-width: 1023px) {
   .menu-footer__list li {
-    margin: 0 0 0 24px; }
+    margin: 10px 0 10px 24px; }
   .menu-footer__link {
     font-size: 12px;
     line-height: 1.2; } }
