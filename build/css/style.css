@@ -538,6 +538,7 @@ body {
     background-color: #011c40; } }
 
 .main-screen {
+  position: relative;
   min-height: 650px;
   margin: -78px 0 120px 0;
   display: block;
@@ -547,6 +548,15 @@ body {
     .main-screen {
       background-image: url("../img/bg/bg-main@2x.jpg");
       background-size: 100% 100%; } }
+  .main-screen::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    background-color: #011c40;
+    width: 100%;
+    min-height: 650px; }
 
 .main-screen__wrapper {
   padding: 270px 40px 40px 115px; }
@@ -575,6 +585,8 @@ body {
       background-size: 100% 100%; } }
 
 @media (max-width: 1023px) {
+    .main-screen::before {
+      min-height: 638px; }
   .main-screen__wrapper {
     padding: 270px 40px 40px 45px; }
   .main-screen__wrapper h1 {
@@ -593,6 +605,8 @@ body {
       background-size: 100% 100%; } }
 
 @media (max-width: 767px) {
+    .main-screen::before {
+      min-height: 500px; }
   .main-screen__wrapper {
     padding: 180px 90px 40px 15px; }
   .main-screen__wrapper h1 {
@@ -682,6 +696,7 @@ body {
     min-height: 186px; } }
 
 .advantages {
+  position: relative;
   min-height: 562px;
   display: block;
   margin-bottom: 110px;
@@ -692,6 +707,15 @@ body {
     .advantages {
       background-image: url("../img/bg/bg-advantages@2x.jpg");
       background-size: 100% 100%; } }
+  .advantages::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    background-color: #c3d1eb;
+    width: 100%;
+    min-height: 562px; }
 
 .advantages h2 {
   margin: 0;
@@ -727,6 +751,8 @@ body {
       background-size: 100% 100%; } }
 
 @media (max-width: 1023px) {
+    .advantages::before {
+      min-height: 588px; }
   .advantages h2 {
     margin-bottom: 50px;
     font-size: 26px;
@@ -745,6 +771,8 @@ body {
       background-size: 100% 100%; } }
 
 @media (max-width: 767px) {
+    .advantages::before {
+      min-height: 997px; }
   .advantages h2 {
     margin-bottom: 30px;
     font-size: 24px; }
@@ -995,6 +1023,7 @@ body {
     padding: 30px 22px 35px 25px; } }
 
 .booking {
+  position: relative;
   min-height: 555px;
   margin-bottom: 120px;
   display: block;
@@ -1004,6 +1033,15 @@ body {
     .booking {
       background-image: url("../img/bg/bg-booking@2x.jpg");
       background-size: 100% 100%; } }
+  .booking::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    background-color: #c3d1eb;
+    width: 100%;
+    min-height: 555px; }
 
 .booking__wrapper {
   padding: 50px 60px;
@@ -1044,6 +1082,8 @@ body {
       background-size: 100% 100%; } }
 
 @media (max-width: 1023px) {
+    .booking::before {
+      min-height: 805px; }
   .booking__wrapper {
     padding: 90px 0;
     -webkit-box-orient: vertical;
@@ -1073,6 +1113,8 @@ body {
       background-size: 100% 100%; } }
 
 @media (max-width: 767px) {
+    .booking::before {
+      min-height: 760px; }
   .booking__wrapper {
     padding: 60px 0; }
   .booking__text {

@@ -1,4 +1,5 @@
 .advantages {
+  position: relative;
   min-height: 562px;
   display: block;
   margin-bottom: 110px;
@@ -9,6 +10,17 @@
   @media (min-resolution: $retina-dpi), (min-resolution: $retina-dppx) {
     background-image: url("../img/bg/bg-advantages@2x.jpg");
     background-size: 100% 100%;
+  }
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    background-color: $bg-1;
+    width: 100%;
+    min-height: 562px;
   }
 }
 
@@ -44,6 +56,10 @@
       background-image: url("../img/bg/bg-advantages-table@2x.jpg");
       background-size: 100% 100%;
     }
+
+    &::before {
+      min-height: 588px;
+    }
   }
 
   .advantages h2 {
@@ -64,6 +80,10 @@
     @media (min-resolution: $retina-dpi), (min-resolution: $retina-dppx) {
       background-image: url("../img/bg/bg-advantages-mobile@2x.jpg");
       background-size: 100% 100%;
+    }
+
+    &::before {
+      min-height: 997px;
     }
   }
 

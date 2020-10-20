@@ -1,4 +1,5 @@
 .booking {
+  position: relative;
   min-height: 555px;
   margin-bottom: 120px;
   display: block;
@@ -8,6 +9,17 @@
   @media (min-resolution: $retina-dpi), (min-resolution: $retina-dppx) {
     background-image: url("../img/bg/bg-booking@2x.jpg");
     background-size: 100% 100%;
+  }
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    background-color: $bg-1;
+    width: 100%;
+    min-height: 555px;
   }
 }
 
@@ -46,6 +58,10 @@
       background-image: url("../img/bg/bg-booking-table@2x.jpg");
       background-size: 100% 100%;
     }
+
+    &::before {
+      min-height: 805px;
+    }
   }
 
   .booking__wrapper {
@@ -79,6 +95,10 @@
     @media (min-resolution: $retina-dpi), (min-resolution: $retina-dppx) {
       background-image: url("../img/bg/bg-booking-mobile@2x.jpg");
       background-size: 100% 100%;
+    }
+
+    &::before {
+      min-height: 760px;
     }
   }
 

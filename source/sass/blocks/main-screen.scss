@@ -1,4 +1,5 @@
 .main-screen {
+  position: relative;
   min-height: 650px;
   margin: -78px 0 120px 0;
   display: block;
@@ -8,6 +9,17 @@
   @media (min-resolution: $retina-dpi), (min-resolution: $retina-dppx) {
     background-image: url("../img/bg/bg-main@2x.jpg");
     background-size: 100% 100%;
+  }
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    background-color: $bg;
+    width: 100%;
+    min-height: 650px;
   }
 }
 
@@ -40,6 +52,10 @@
       background-image: url("../img/bg/bg-main-table@2x.jpg");
       background-size: 100% 100%;
     }
+
+    &::before {
+      min-height: 638px;
+    }
   }
 
   .main-screen__wrapper {
@@ -64,6 +80,10 @@
     @media (min-resolution: $retina-dpi), (min-resolution: $retina-dppx) {
       background-image: url("../img/bg/bg-main-mobile@2x.jpg");
       background-size: 100% 100%;
+    }
+
+    &::before {
+      min-height: 500px;
     }
   }
 
