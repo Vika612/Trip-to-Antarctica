@@ -1,3 +1,9 @@
+.header {
+  position: relative;
+  z-index: 7;
+  min-height: 100px;
+}
+
 .header__burger {
   display: none;
 }

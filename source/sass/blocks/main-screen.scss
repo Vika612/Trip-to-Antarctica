@@ -1,7 +1,7 @@
 .main-screen {
   position: relative;
   min-height: 650px;
-  margin: -78px 0 120px 0;
+  margin: -100px 0 120px 0;
   display: block;
   background: url("../img/bg/bg-main@1x.jpg") no-repeat center;
   background-size: cover;
@@ -45,7 +45,7 @@
 @media (max-width: 1023px) {
   .main-screen {
     min-height: 638px;
-    margin: -54px 0 90px 0;
+    margin: -100px 0 90px 0;
     background: url("../img/bg/bg-main-table@1x.jpg") no-repeat center;
 
     @media (min-resolution: $retina-dpi), (min-resolution: $retina-dppx) {
@@ -74,7 +74,7 @@
 @media (max-width: 767px) {
   .main-screen {
     min-height: 500px;
-    margin: -46px 0 60px 0;
+    margin: -100px 0 60px 0;
     background: url("../img/bg/bg-main-mobile@1x.jpg") no-repeat center;
 
     @media (min-resolution: $retina-dpi), (min-resolution: $retina-dppx) {
