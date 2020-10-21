@@ -767,7 +767,7 @@ body {
   .advantages {
     min-height: 997px;
     margin-bottom: 55px;
-    padding: 60px 0 40px;
+    padding: 60px 20px 40px;
     background: url("../img/bg/bg-advantages-mobile@1x.jpg") no-repeat center;
     background-size: 100%; } }
   @media (max-width: 767px) and (-webkit-min-device-pixel-ratio: 1.5), (max-width: 767px) and (min-resolution: 144dpi), (max-width: 767px) and (min-resolution: 1.5dppx) {
@@ -781,12 +781,8 @@ body {
   .advantages h2 {
     margin-bottom: 30px;
     font-size: 24px; }
-  .advantages__list {
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap; }
   .advantages__list li {
-    margin: 0;
-    margin-bottom: 30px; } }
+    margin: 0 10px 30px; } }
 
 .card-advantage {
   position: relative;

@@ -73,7 +73,7 @@
   .advantages {
     min-height: 997px;
     margin-bottom: 55px;
-    padding: 60px 0 40px;
+    padding: 60px 20px 40px;
     background: url("../img/bg/bg-advantages-mobile@1x.jpg") no-repeat center;
     background-size: 100%;
 
@@ -92,12 +92,7 @@
     font-size: 24px;
   }
 
-  .advantages__list {
-    flex-wrap: wrap;
-  }
-
   .advantages__list li {
-    margin: 0;
-    margin-bottom: 30px;
+    margin: 0 10px 30px;
   }
 }

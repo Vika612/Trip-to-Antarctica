@@ -337,7 +337,7 @@
                   </li>
                   <li class="form__item">
                     <label for="phone" class="visually-hidden">Ваш номер телефона</label>
-                    <input type="tel" id="phone" name="phone" placeholder="89236889975" pattern="[0-9]{5,11}" required="">
+                    <input type="tel" id="phone" name="phone" placeholder="89236889975" pattern="^((8|\+7)[\- ]?)?(\(?\d{3}\)?[\- ]?)?[\d\- ]{7,10}$" required="">
                   </li>
                   <li class="form__item">
                     <label for="mail" class="visually-hidden">Ваш адрес электронной почты</label>
@@ -345,7 +345,7 @@
                   </li>
                 </ul>
                 <div class="form__checkbox">
-                  <input type="checkbox" id="check" name="check">
+                  <input type="checkbox" id="check" name="check" checked="" required="">
                   <label for="check">Я согласен на обработку моих персональных данных</label>
                 </div>
                 <button class="form__button" type="submit">Оставить заявку</button>
