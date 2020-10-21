@@ -549,6 +549,10 @@ body {
   display: block;
   background: url("../img/bg/bg-main@1x.jpg") no-repeat center;
   background-size: cover; }
+  @media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
+    .main-screen {
+      background-image: url("../img/bg/bg-main@2x.jpg");
+      background-size: 100% 100%; } }
   .main-screen::before {
     content: "";
     position: absolute;
@@ -579,8 +583,14 @@ body {
   .main-screen {
     min-height: 638px;
     margin: -100px 0 90px 0;
-    background: url("../img/bg/bg-main-table@2x.jpg") no-repeat center;
-    background-size: 100% 100%; }
+    background: url("../img/bg/bg-main-table@1x.jpg") no-repeat center;
+    background-size: cover; } }
+  @media (max-width: 1023px) and (-webkit-min-device-pixel-ratio: 1.5), (max-width: 1023px) and (min-resolution: 144dpi), (max-width: 1023px) and (min-resolution: 1.5dppx) {
+    .main-screen {
+      background-image: url("../img/bg/bg-main-table@2x.jpg");
+      background-size: 100% 100%; } }
+
+@media (max-width: 1023px) {
     .main-screen::before {
       min-height: 638px; }
   .main-screen__wrapper {
@@ -594,8 +604,14 @@ body {
   .main-screen {
     min-height: 500px;
     margin: -100px 0 60px 0;
-    background: url("../img/bg/bg-main-mobile@2x.jpg") no-repeat center;
-    background-size: 100% 100%; }
+    background: url("../img/bg/bg-main-mobile@1x.jpg") no-repeat center;
+    background-size: cover; } }
+  @media (max-width: 767px) and (-webkit-min-device-pixel-ratio: 1.5), (max-width: 767px) and (min-resolution: 144dpi), (max-width: 767px) and (min-resolution: 1.5dppx) {
+    .main-screen {
+      background-image: url("../img/bg/bg-main-mobile@2x.jpg");
+      background-size: 100% 100%; } }
+
+@media (max-width: 767px) {
     .main-screen::before {
       min-height: 500px; }
   .main-screen__wrapper {
@@ -735,7 +751,7 @@ body {
     margin-bottom: 90px;
     padding: 90px 30px 80px;
     background: url("../img/bg/bg-advantages-table@1x.jpg") no-repeat center;
-    background-size: 100%; } }
+    background-size: cover; } }
   @media (max-width: 1023px) and (-webkit-min-device-pixel-ratio: 1.5), (max-width: 1023px) and (min-resolution: 144dpi), (max-width: 1023px) and (min-resolution: 1.5dppx) {
     .advantages {
       background-image: url("../img/bg/bg-advantages-table@2x.jpg");
@@ -755,7 +771,7 @@ body {
     margin-bottom: 55px;
     padding: 60px 20px 40px;
     background: url("../img/bg/bg-advantages-mobile@1x.jpg") no-repeat center;
-    background-size: 100%; } }
+    background-size: cover; } }
   @media (max-width: 767px) and (-webkit-min-device-pixel-ratio: 1.5), (max-width: 767px) and (min-resolution: 144dpi), (max-width: 767px) and (min-resolution: 1.5dppx) {
     .advantages {
       background-image: url("../img/bg/bg-advantages-mobile@2x.jpg");
@@ -1062,7 +1078,7 @@ body {
     min-height: 805px;
     margin-bottom: 100px;
     background: url("../img/bg/bg-booking-table@1x.jpg") no-repeat center;
-    background-size: 100%; } }
+    background-size: cover; } }
   @media (max-width: 1023px) and (-webkit-min-device-pixel-ratio: 1.5), (max-width: 1023px) and (min-resolution: 144dpi), (max-width: 1023px) and (min-resolution: 1.5dppx) {
     .booking {
       background-image: url("../img/bg/bg-booking-table@2x.jpg");
@@ -1093,7 +1109,7 @@ body {
     min-height: 760px;
     margin-bottom: 57px;
     background: url("../img/bg/bg-booking-mobile@1x.jpg") no-repeat center;
-    background-size: 100%; } }
+    background-size: cover; } }
   @media (max-width: 767px) and (-webkit-min-device-pixel-ratio: 1.5), (max-width: 767px) and (min-resolution: 144dpi), (max-width: 767px) and (min-resolution: 1.5dppx) {
     .booking {
       background-image: url("../img/bg/bg-booking-mobile@2x.jpg");

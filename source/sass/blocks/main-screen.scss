@@ -46,6 +46,8 @@
   .main-screen {
     min-height: 638px;
     margin: -100px 0 90px 0;
+    background: url("../img/bg/bg-main-table@1x.jpg") no-repeat center;
+    background-size: cover;
 
     @media (min-resolution: $retina-dpi), (min-resolution: $retina-dppx) {
       background-image: url("../img/bg/bg-main-table@2x.jpg");
@@ -74,7 +76,7 @@
   .main-screen {
     min-height: 500px;
     margin: -100px 0 60px 0;
-    background: url("../img/bg/bg-main-table@1x.jpg") no-repeat center;
+    background: url("../img/bg/bg-main-mobile@1x.jpg") no-repeat center;
     background-size: cover;
 
     @media (min-resolution: $retina-dpi), (min-resolution: $retina-dppx) {

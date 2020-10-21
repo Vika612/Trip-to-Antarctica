@@ -49,8 +49,9 @@
     min-height: 588px;
     margin-bottom: 90px;
     padding: 90px 30px 80px;
+
     background: url("../img/bg/bg-advantages-table@1x.jpg") no-repeat center;
-    background-size: 100%;
+    background-size: cover;
 
     @media (min-resolution: $retina-dpi), (min-resolution: $retina-dppx) {
       background-image: url("../img/bg/bg-advantages-table@2x.jpg");
@@ -75,7 +76,7 @@
     margin-bottom: 55px;
     padding: 60px 20px 40px;
     background: url("../img/bg/bg-advantages-mobile@1x.jpg") no-repeat center;
-    background-size: 100%;
+    background-size: cover;
 
     @media (min-resolution: $retina-dpi), (min-resolution: $retina-dppx) {
       background-image: url("../img/bg/bg-advantages-mobile@2x.jpg");

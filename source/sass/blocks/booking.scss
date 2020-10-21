@@ -52,7 +52,7 @@
     min-height: 805px;
     margin-bottom: 100px;
     background: url("../img/bg/bg-booking-table@1x.jpg") no-repeat center;
-    background-size: 100%;
+    background-size: cover;
 
     @media (min-resolution: $retina-dpi), (min-resolution: $retina-dppx) {
       background-image: url("../img/bg/bg-booking-table@2x.jpg");
@@ -90,7 +90,7 @@
     min-height: 760px;
     margin-bottom: 57px;
     background: url("../img/bg/bg-booking-mobile@1x.jpg") no-repeat center;
-    background-size: 100%;
+    background-size: cover;
 
     @media (min-resolution: $retina-dpi), (min-resolution: $retina-dppx) {
       background-image: url("../img/bg/bg-booking-mobile@2x.jpg");
