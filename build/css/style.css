@@ -740,16 +740,16 @@ body {
       flex-wrap: wrap;
   -ms-flex-pack: distribute;
       justify-content: space-around;
-  margin: 0 -20px; }
+  margin: 0 -15px; }
 
 .advantages__list li {
-  margin: 0 20px 20px; }
+  margin: 0 15px 20px; }
 
 @media (max-width: 1023px) {
   .advantages {
     min-height: 588px;
     margin-bottom: 90px;
-    padding: 90px 30px 80px;
+    padding: 90px 25px 80px;
     background: url("../img/bg/bg-advantages-table@1x.jpg") no-repeat center;
     background-size: cover; } }
   @media (max-width: 1023px) and (-webkit-min-device-pixel-ratio: 1.5), (max-width: 1023px) and (min-resolution: 144dpi), (max-width: 1023px) and (min-resolution: 1.5dppx) {
@@ -769,7 +769,7 @@ body {
   .advantages {
     min-height: 997px;
     margin-bottom: 55px;
-    padding: 60px 20px 40px;
+    padding: 60px 0 40px;
     background: url("../img/bg/bg-advantages-mobile@1x.jpg") no-repeat center;
     background-size: cover; } }
   @media (max-width: 767px) and (-webkit-min-device-pixel-ratio: 1.5), (max-width: 767px) and (min-resolution: 144dpi), (max-width: 767px) and (min-resolution: 1.5dppx) {
@@ -848,7 +848,7 @@ body {
 @media (max-width: 1023px) {
   .card-advantage {
     max-width: 206px;
-    padding: 70px 10px 25px 15px; }
+    padding: 70px 10px 25px 20px; }
   .card-advantage--ship::before {
     top: 25px;
     left: 15px; }
@@ -921,7 +921,7 @@ body {
           justify-content: space-between; }
   .card-tour:hover .card-tour__info,
   .card-tour:focus-within .card-tour__info {
-    visibility: visible; }
+    opacity: 1; }
 
 .card-tour img {
   display: block;
@@ -961,7 +961,7 @@ body {
   background-color: #011c40;
   -webkit-box-shadow: 0 4px 35px rgba(1, 28, 64, 0.15);
           box-shadow: 0 4px 35px rgba(1, 28, 64, 0.15);
-  visibility: hidden; }
+  opacity: 0; }
 
 .card-tour__info h4 {
   margin: 0;

@@ -7,7 +7,7 @@
 
   &:hover .card-tour__info,
   &:focus-within .card-tour__info {
-    visibility: visible;
+    opacity: 1;
   }
 }
 
@@ -43,7 +43,7 @@
   justify-content: space-between;
   background-color: $black;
   box-shadow: 0 4px 35px rgba(1, 28, 64, 0.15);
-  visibility: hidden;
+  opacity: 0;
 }
 
 .card-tour__info h4 {

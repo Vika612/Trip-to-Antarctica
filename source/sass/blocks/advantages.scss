@@ -37,18 +37,18 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  margin: 0 -20px;
+  margin: 0 -15px;
 }
 
 .advantages__list li {
-  margin: 0 20px 20px;
+  margin: 0 15px 20px;
 }
 
 @media (max-width: 1023px) {
   .advantages {
     min-height: 588px;
     margin-bottom: 90px;
-    padding: 90px 30px 80px;
+    padding: 90px 25px 80px;
 
     background: url("../img/bg/bg-advantages-table@1x.jpg") no-repeat center;
     background-size: cover;
@@ -74,7 +74,7 @@
   .advantages {
     min-height: 997px;
     margin-bottom: 55px;
-    padding: 60px 20px 40px;
+    padding: 60px 0 40px;
     background: url("../img/bg/bg-advantages-mobile@1x.jpg") no-repeat center;
     background-size: cover;
 
