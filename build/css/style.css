@@ -605,7 +605,7 @@ body {
     min-height: 500px;
     margin: -100px 0 60px 0;
     background: url("../img/bg/bg-main-mobile@1x.jpg") no-repeat center;
-    background-size: cover; } }
+    background-size: 100% 100%; } }
   @media (max-width: 767px) and (-webkit-min-device-pixel-ratio: 1.5), (max-width: 767px) and (min-resolution: 144dpi), (max-width: 767px) and (min-resolution: 1.5dppx) {
     .main-screen {
       background-image: url("../img/bg/bg-main-mobile@2x.jpg");
